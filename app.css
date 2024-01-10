@@ -1,0 +1,99 @@
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+/* kode di atas agar halaman utama horizontal tidak scrollable */
+
+body {
+  background: #deb78c;
+  font-family: "Nunito", sans-serif;
+  padding-top: 62px;
+}
+
+.navbar {
+  font-size: 1.25rem;
+  font-weight: 100;
+  background-color: #201e1a;
+}
+
+#navbar .nav-link {
+  color: white;
+}
+
+#navbar .nav-link:hover {
+  color: #354259;
+}
+
+#navbar .navbar-brand {
+  color: wheat;
+  font-size: 1.5rem;
+}
+
+.navbar.scrolled {
+  background-color: #deb78c;
+  transition: background 500ms;
+}
+
+#navbar-brand.scrolled {
+  color: #201e1a;
+}
+
+#home {
+  background-color: #201e1a;
+}
+
+#title-slogan {
+  background-color: #201e1a;
+  /* align-self: stretch; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* display: flex; */
+}
+
+#title-head {
+  align-self: center;
+}
+
+#title-head h1 {
+  font-size: 2rem;
+  text-align: start;
+  color: whitesmoke;
+  line-height: 2;
+  font-weight: 100;
+}
+
+#coffee-icon {
+  height: 60px;
+  width: 60px;
+  padding: 0 0;
+}
+
+.blurb h2 {
+  color: #201e1a;
+  font-weight: 100;
+  font-size: 2.5rem;
+}
+
+.blurb p {
+  color: #201e1c;
+  font-weight: 100;
+  font-size: 1.125rem;
+  line-height: 2;
+}
+
+@media (max-width: 768px) {
+  #title-head h1 {
+    font-weight: 100;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 30px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #title-head h1 {
+    font-size: 3rem;
+  }
+}
