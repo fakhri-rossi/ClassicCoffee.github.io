@@ -150,6 +150,23 @@ footer .author {
     margin: 0 auto;
     padding-bottom: 30px;
   }
+
+  footer p {
+    font-size: 0.75rem;
+  }
+  footer .author {
+    font-size: 0.75rem;
+  }
+  footer div .social-media {
+    padding: 0px 0px 0px 0px;
+  }
+  .footer-title {
+    font-size: 1.25rem;
+  }
+
+  .bi {
+    width: 30px;
+  }
 }
 
 @media (min-width: 1200px) {
