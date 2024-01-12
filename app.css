@@ -142,6 +142,10 @@ footer .author {
   font-size: 1.5rem;
 }
 
+img {
+  height: 200px;
+}
+
 @media (max-width: 768px) {
   #title-head h1 {
     font-weight: 100;
